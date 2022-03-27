@@ -11,6 +11,7 @@
   inputs.src-nimhttpd-v1_0_4.ref   = "refs/tags/v1.0.4";
   inputs.src-nimhttpd-v1_0_4.owner = "h3rald";
   inputs.src-nimhttpd-v1_0_4.repo  = "nimhttpd";
+  inputs.src-nimhttpd-v1_0_4.dir   = "";
   inputs.src-nimhttpd-v1_0_4.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
